@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div className="min-w-1/2  h-full">
           <img
-            className="lg:w-[1400px] lg:h-[400px] rounded-xl"
+            className="lg:w-[1400px] lg:h-[400px] border-2  text-center mx-auto lg:mx-0  border-main  rounded-tr-none rounded-[80px] rounded-bl-none"
             src="https://i.ibb.co/6chhqFz/pexels-christina-morillo-1181325.jpg"
             alt=""
           />

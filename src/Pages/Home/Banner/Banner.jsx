@@ -3,9 +3,9 @@ import { VscGithubAlt } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { BsTwitterX } from "react-icons/bs";
 import { SlCloudDownload } from "react-icons/sl";
+import Resume from "../../../assets/Resume.pdf"
 
 const Banner = () => {
-    const resume = 'https://drive.google.com/u/0/uc?id=1P-6pliZJKV6csqTTDxK4FpQPPyxrJwXo&export=download'
   return (
     <div className=" my-20 mx-auto max-w-7xl text-white ">
       <div className="flex  gap-4">
@@ -20,7 +20,7 @@ const Banner = () => {
               <h3 className="text-2xl font-semibold mt-2 text-main">
                 Arafat Sabbir
               </h3>
-              <h3 className="text-xl font-semibold ">MERN-STACK DEVELOPER</h3>
+              <h3 className="text-xl font-semibold ">Front-End DEVELOPER</h3>
               <p className="flex items-center gap-1 justify-center font-medium">
                 {" "}
                 <span className="text-main">
@@ -45,7 +45,7 @@ const Banner = () => {
           </h3>
           <h3 className="text-4xl">Front-End Developer</h3>
           <p className="text-lg font-semibold w-[600px]">
-            MERN Stack Developer | Building Stunning, Secure Web Apps.
+            Front-End Developer | Building Stunning, Secure Web Apps.
             Passionate about crafting visually appealing, fully functional, and
             secure web applications.For Great User Experience...
           </p>
@@ -53,7 +53,7 @@ const Banner = () => {
           <a href="https://github.com/arafat-sabbir" className="mt-4 border-2 p-2 rounded-3xl border-main" target="_blank" rel="noreferrer"><span className="text-3xl font-semibold text-main"><VscGithubAlt/></span></a>
           <a href="https://www.linkedin.com/in/arafat-sabbir/" target="_blank" rel="noreferrer" className="mt-4 border-2 p-2 rounded-3xl border-main"> <span className="text-main font-semibold text-3xl"><SlSocialLinkedin/></span> </a>
           <a href="https://twitter.com/arafatshabbir8" target="_blank" rel="noreferrer" className="mt-4 border-2 p-2 rounded-3xl border-main"><span className="text-3xl font-semibold text-main"><BsTwitterX/></span></a>
-          <a href={resume} download={resume}  className="flex justify-center items-center border border-main rounded-3xl p-2 mt-2"><span className="text-3xl font-semibold text-main "><SlCloudDownload/></span> <span className="text-xl ml-2">Download Cv</span></a>
+          <a href={Resume} download={Resume}  className="flex justify-center items-center border border-main rounded-3xl p-2 mt-2"><span className="text-3xl font-semibold text-main "><SlCloudDownload/></span> <span className="text-xl ml-2">Download Cv</span></a>
           </div>
         </div>
       </div>
