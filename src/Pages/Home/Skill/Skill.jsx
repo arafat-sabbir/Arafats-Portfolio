@@ -4,13 +4,13 @@ import Title from "../../../Utils/Title";
 const Skill = () => {
   return (
     <div id="skills">
-      <div className="my-20">
+      <div className="my-20 container mx-auto">
         <Title></Title>
         <h1 className="text-3xl font-semibold  text-main text-center my-2">
           MY SKILLS
         </h1>
         <p className="text-center text-main my-2">#Things I Know</p>
-        <div className="flex justify-center">
+        <div className="grid lg:grid-cols-9 grid-cols-3 justify-center">
           <img src="https://i.ibb.co/dtqLR7P/icons8-html-5-144.png" alt="" />
           <img src="https://i.ibb.co/61szNJk/icons8-css3-144.png" alt="" />
           <img className="animate-bounce duration:1s ease-in-out"

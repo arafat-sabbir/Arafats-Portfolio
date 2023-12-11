@@ -26,10 +26,10 @@ const Home = () => {
       <Contact></Contact>
       <Footer></Footer>
       <button
-        className="fixed bg-gray-700 p-1 rounded-full text-main text-3xl bottom-8 right-8"
+        className="fixed bg-gray-700  rounded-full text-main text-3xl p-3 bottom-8 right-8"
         onClick={scrooltotop}
       >
-        <span className="p-4">
+        <span className="">
           <IoArrowUp />
         </span>
       </button>
