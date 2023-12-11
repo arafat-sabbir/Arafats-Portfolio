@@ -4,6 +4,7 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { BsTwitterX } from "react-icons/bs";
 import { SlCloudDownload } from "react-icons/sl";
 import Resume from "../../../assets/Resume.pdf"
+import { AiOutlineMail } from "react-icons/ai";
 
 const Banner = () => {
   return (
@@ -53,7 +54,9 @@ const Banner = () => {
           <a href="https://github.com/arafat-sabbir" className="mt-4 border-2 p-2 rounded-3xl border-main" target="_blank" rel="noreferrer"><span className="text-3xl font-semibold text-main"><VscGithubAlt/></span></a>
           <a href="https://www.linkedin.com/in/arafat-sabbir/" target="_blank" rel="noreferrer" className="mt-4 border-2 p-2 rounded-3xl border-main"> <span className="text-main font-semibold text-3xl"><SlSocialLinkedin/></span> </a>
           <a href="https://twitter.com/arafatshabbir8" target="_blank" rel="noreferrer" className="mt-4 border-2 p-2 rounded-3xl border-main"><span className="text-3xl font-semibold text-main"><BsTwitterX/></span></a>
+          <a href="mailto:arafatshabbir8@gmail.com" target="_blank" rel="noreferrer" className="mt-4 border-2 p-2 rounded-3xl border-main"> <span className="text-main font-semibold text-3xl"><AiOutlineMail/></span> </a>
           <a href={Resume} download={Resume}  className="flex justify-center items-center border border-main rounded-3xl p-2 mt-2"><span className="text-3xl font-semibold text-main "><SlCloudDownload/></span> <span className="text-xl ml-2">Download Cv</span></a>
+          
           </div>
         </div>
       </div>

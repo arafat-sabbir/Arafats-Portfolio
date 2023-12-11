@@ -2,7 +2,7 @@ import Title from "../../../Utils/Title";
 
 const About = () => {
   return (
-    <div className="lg:max-w-7xl mx-auto text-white w-[90vw]">
+    <div className="lg:max-w-7xl mx-auto text-white w-[90vw]" id="about">
       <Title></Title>
       <div className="flex  flex-col lg:flex-row justify-center items-center  gap-10">
         <div className="min-w-1/2  text-center lg:text-left">

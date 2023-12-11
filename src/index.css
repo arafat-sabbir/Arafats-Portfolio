@@ -10,3 +10,6 @@ body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #292F36 !important;
 }
+html {
+  scroll-behavior: smooth;
+}

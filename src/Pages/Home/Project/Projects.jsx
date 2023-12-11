@@ -21,7 +21,7 @@ const ImageWithScale = ({ src, alt }) => {
 
 const Projects = () => {
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto " id="projects">
       <Title></Title>
       <h1 className="text-3xl font-semibold text-center text-main my-2">
         My Projects

@@ -2,6 +2,7 @@ import Title from "../../../Utils/Title";
 import { FiGithub } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {
   const handleSubmit = (e) => {
@@ -11,9 +12,10 @@ const Contact = () => {
     const email = form.email.value;
     const message = form.message.value;
     console.log(name,email,message);
+    form.reset()
   };
   return (
-    <div className="my-20 container mx-auto">
+    <div className="my-20 container mx-auto" id="contact">
       <Title></Title>
       <h3 className="text-3xl font-semibold text-main text-center">
         Contact Me
@@ -126,12 +128,20 @@ const Contact = () => {
                   >
                     <FaXTwitter />
                   </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mx-1.5 text-main text-2xl ml-2  transition-colors duration-300 transform hover:text-[#0BE2B9]"
+                    href="mailto:arafatshabbir8@gmail.com"
+                  >
+                    <AiOutlineMail />
+                  </a>
                 </div>
               </div>
             </div>
 
             <div  className="mt-8 lg:w-1/2 lg:mx-6 rounded-xl">
-              <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-transparent border-main rounded-lg shadow-[0_0_30px_#374151]  ">
+              <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-transparent border-main rounded-lg shadow-[0_0_10px_#374151]  ">
                 <h1 className="textLg font-medium">What do you want to ask</h1>
 
                 <form className="mt-6" onSubmit={handleSubmit}>
@@ -140,7 +150,7 @@ const Contact = () => {
                     <input
                     name="name"
                       type="text"
-                      placeholder="John Doe"
+                      placeholder="Your Name"
                       className="block w-full px-5 py-3 mt-2 placeholder-gray-400 bg-transparent  border  rounded-md dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     />
                   </div>
@@ -152,7 +162,7 @@ const Contact = () => {
                     <input
                     name="email"
                       type="email"
-                      placeholder="johndoe@example.com"
+                      placeholder="Your email"
                       className="block w-full px-5 py-3 mt-2 placeholder-gray-400 bg-transparent  border  rounded-md dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     />
                   </div>
@@ -162,7 +172,7 @@ const Contact = () => {
                     <textarea
                     name="message"
                       className="block w-full h-32 px-5 py-3 mt-2 placeholder-gray-400 bg-transparent  border  rounded-md md:h-48 dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-                      placeholder="Message"
+                      placeholder="Your Message"
                     ></textarea>
                   </div>
 
