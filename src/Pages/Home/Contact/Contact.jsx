@@ -173,6 +173,7 @@ const Contact = () => {
                   <div className="flex-1">
                     <label className="block mb-2 text-sm  ">Full Name</label>
                     <input
+                    required
                       name="name"
                       type="text"
                       placeholder="Your Name"
@@ -185,6 +186,7 @@ const Contact = () => {
                       Email address
                     </label>
                     <input
+                    required
                       name="email"
                       type="email"
                       placeholder="Your email"
@@ -195,6 +197,7 @@ const Contact = () => {
                   <div className="w-full mt-6">
                     <label className="block mb-2 text-sm  ">Message</label>
                     <textarea
+                    required
                       name="message"
                       className="block w-full h-32 px-5 py-3 mt-2 placeholder-gray-400 bg-transparent  border  rounded-md md:h-48 dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                       placeholder="Your Message"

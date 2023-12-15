@@ -1,12 +1,12 @@
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaVoicemail, FaXTwitter } from "react-icons/fa6";
+import {  FaXTwitter } from "react-icons/fa6";
 import { FiGithub } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="py-6">
       <footer className="text-white">
         <div className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
           <Link to={'/'} className="flex gap-2">

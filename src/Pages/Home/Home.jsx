@@ -7,6 +7,7 @@ import Contact from "./Contact/Contact";
 import Projects from "./Project/Projects";
 import Skill from "./Skill/Skill";
 import { IoArrowUp } from "react-icons/io5";
+import Education from "./Education/Education";
 
 const Home = () => {
   const scrooltotop = () => {
