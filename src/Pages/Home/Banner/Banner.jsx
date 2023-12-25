@@ -1,12 +1,9 @@
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
-import { VscGithubAlt } from "react-icons/vsc";
-import { SlSocialLinkedin } from "react-icons/sl";
-import { BsTwitterX } from "react-icons/bs";
 import { SlCloudDownload } from "react-icons/sl";
-import Resume from "../../../assets/Resume.pdf";
-import { AiOutlineMail } from "react-icons/ai";
+
 
 const Banner = () => {
+  const Resume = "https://drive.usercontent.google.com/download?id=1S91Bs3aUd6c7T94pHfLM_w3N1JjSVkm5&export=download&authuser=0&confirm=t&uuid=62ea5f67-fa16-4dd3-9ffb-7e6c01204630&at=APZUnTWQ-m6nAvD41iZkqTZG85mN:1703451810896"
   return (
     <div className=" my-20 mx-auto max-w-7xl text-white ">
       <div className="flex flex-col lg:flex-row  gap-4 space-y-4">
@@ -39,9 +36,9 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 text-center lg:text-left  flex flex-col justify-center space-y-2 ">
+        <div className="lg:w-1/2 text-center lg:text-left space-y-4  flex flex-col justify-center">
           <h3 className="text-4xl text-main">Front-End Developer</h3>
-          <p className="text-lg tracking-wide mb-2 w-[90vw] mx-auto lg:mx-0 lg:w-[600px]">
+          <p className="text-lg tracking-wider w-[90vw] mx-auto lg:mx-0 lg:w-[600px]">
             Front-End Developer | Building Stunning, Secure Web Apps. Passionate
             about crafting visually appealing, fully functional, and secure web
             applications.For Great User Experience...

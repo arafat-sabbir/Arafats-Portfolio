@@ -88,7 +88,7 @@ const Projects = () => {
           className="bg-black  mx-auto lg:h-[550px] w-[90vw] h-[300px]  rounded-xl lg:w-[600px] ease-in-out duration-[8000ms] bg-cover bg-top hover:bg-bottom"
           style={{
             backgroundImage:
-              "url('https://i.ibb.co/bRctT2Y/screencapture-skill-exchange-port-web-app-2023-12-13-22-58-42.png')",
+              "url('https://i.ibb.co/G0x6Hz4/screencapture-skill-exchange-port-web-app-2023-12-15-11-52-13.png')",
           }}
         ></div>
         <div className="text-white text-center lg:w-1/2 mt-4 lg:mt-none space-y-2">

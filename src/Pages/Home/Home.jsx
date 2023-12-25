@@ -7,7 +7,6 @@ import Contact from "./Contact/Contact";
 import Projects from "./Project/Projects";
 import Skill from "./Skill/Skill";
 import { IoArrowUp } from "react-icons/io5";
-import Education from "./Education/Education";
 
 const Home = () => {
   const scrooltotop = () => {
@@ -27,7 +26,7 @@ const Home = () => {
       <Contact></Contact>
       <Footer></Footer>
       <button
-        className="fixed bg-gray-700  rounded-full text-main text-3xl p-3 bottom-8 right-8"
+        className="fixed bg-gray-700 animate-pulse  rounded-full text-main text-3xl p-3 bottom-8 right-8"
         onClick={scrooltotop}
       >
         <span className="">

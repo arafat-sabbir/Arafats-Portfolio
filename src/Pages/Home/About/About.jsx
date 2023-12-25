@@ -6,7 +6,7 @@ const About = () => {
       <Title></Title>
       <div className="flex  flex-col lg:flex-row justify-center items-center  gap-10">
         <div className="min-w-1/2  text-center lg:text-left">
-          <h3 className="border-2 mx-auto lg:mx-0 text-3xl border-main w-44 text-center px-4 py-2 rounded-tr-none rounded-2xl rounded-bl-none">
+          <h3 className="border-2 mx-auto lg:mx-0 text-2xl border-main w-44 text-center px-4 py-2 rounded-tr-none rounded-2xl rounded-bl-none">
             About Me
           </h3>
           <div className="bg-gray-700 p-8 mt-4 rounded-2xl">

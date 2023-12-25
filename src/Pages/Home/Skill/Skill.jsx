@@ -13,7 +13,7 @@ const Skill = () => {
         <div className="grid lg:grid-cols-9 grid-cols-3 justify-center md:justify-items-center">
           <img src="https://i.ibb.co/dtqLR7P/icons8-html-5-144.png" alt="" />
           <img src="https://i.ibb.co/61szNJk/icons8-css3-144.png" alt="" />
-          <img className="animate-bounce duration:1s ease-in-out"
+          <img className=" duration:1s ease-in-out"
             src="https://i.ibb.co/6s46TzN/icons8-tailwind-css-144.png"
             alt=""
           />
@@ -27,7 +27,7 @@ const Skill = () => {
           <img className="" src="https://i.ibb.co/4mzVqrD/icons8-firebase-144.png" alt="" />
           <img className="" src="https://i.ibb.co/dLr9RBY/icons8-node-js-144.png" alt="" />
           <img src="https://i.ibb.co/XSNTYwV/icons8-express-js-144-2.png" alt="" />
-          <img src="https://i.ibb.co/kX7cM1S/icons8-mongo-db-96.png" alt="" />
+          <img  className="mt-4" src="https://i.ibb.co/kX7cM1S/icons8-mongo-db-96.png" alt="" />
         </div>
       </div>
     </div>
