@@ -10,7 +10,6 @@ import { IoArrowUp } from "react-icons/io5";
 
 const Home = () => {
   const scrooltotop = () => {
-  
       window.scrollTo({
         top: 0,
         behavior: "smooth",
