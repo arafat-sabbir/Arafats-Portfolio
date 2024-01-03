@@ -1,15 +1,22 @@
-import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 import { SlCloudDownload } from "react-icons/sl";
 import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
+  const animate1= useRef(null)
+  const isInView1 = useInView(animate1)
   const Resume =
     "https://drive.usercontent.google.com/download?id=1S91Bs3aUd6c7T94pHfLM_w3N1JjSVkm5&export=download&authuser=0&confirm=t&uuid=62ea5f67-fa16-4dd3-9ffb-7e6c01204630&at=APZUnTWQ-m6nAvD41iZkqTZG85mN:1703451810896";
   return (
     <div className=" my-20 mx-auto max-w-7xl text-white ">
       <div className="flex flex-col lg:flex-row-reverse  gap-4 space-y-4">
         <div className="lg:w-1/2 mx-auto">
-          <div className="lg:w-11/12 w-[90vw] mx-auto  p-10">
+          <div ref={animate1}  style={{
+            transform: isInView1 ? "none" : "scale(0)",
+            opacity: isInView1 ? "1" : "0",
+            transition: "all 1.8s",
+        }} className="lg:w-11/12 w-[90vw] mx-auto  p-10">
             <img
               className="h-72 w-72 mx-auto"
               src="https://i.ibb.co/F3NN1t5/profile-pic-5.png"
@@ -17,7 +24,11 @@ const Banner = () => {
             />
           </div>
         </div>
-        <div className="lg:w-1/2 text-center lg:text-left space-y-4  flex flex-col justify-center">
+        <div ref={animate1} style={{
+            transform: isInView1 ? "none" : "translateY(100px)",
+            opacity: isInView1 ? "1" : "0",
+            transition: "all 1.8s",
+        }} className="lg:w-1/2 text-center lg:text-left space-y-4  flex flex-col justify-center">
           <h3 className="text-5xl text-main font-semibold">
             <Typewriter
               words={[
