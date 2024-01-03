@@ -1,49 +1,42 @@
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 import { SlCloudDownload } from "react-icons/sl";
-
+import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
-  const Resume = "https://drive.usercontent.google.com/download?id=1S91Bs3aUd6c7T94pHfLM_w3N1JjSVkm5&export=download&authuser=0&confirm=t&uuid=62ea5f67-fa16-4dd3-9ffb-7e6c01204630&at=APZUnTWQ-m6nAvD41iZkqTZG85mN:1703451810896"
+  const Resume =
+    "https://drive.usercontent.google.com/download?id=1S91Bs3aUd6c7T94pHfLM_w3N1JjSVkm5&export=download&authuser=0&confirm=t&uuid=62ea5f67-fa16-4dd3-9ffb-7e6c01204630&at=APZUnTWQ-m6nAvD41iZkqTZG85mN:1703451810896";
   return (
     <div className=" my-20 mx-auto max-w-7xl text-white ">
-      <div className="flex flex-col lg:flex-row  gap-4 space-y-4">
-        <div className="lg:w-1/2">
-          <div className="lg:w-7/12 w-[90vw] border-4 text-center mx-auto lg:mx-0 p-10 border-main  rounded-tr-none rounded-[80px] rounded-bl-none">
+      <div className="flex flex-col lg:flex-row-reverse  gap-4 space-y-4">
+        <div className="lg:w-1/2 mx-auto">
+          <div className="lg:w-11/12 w-[90vw] mx-auto  p-10">
             <img
-              className="h-44 w-44 mx-auto"
+              className="h-72 w-72 mx-auto"
               src="https://i.ibb.co/F3NN1t5/profile-pic-5.png"
               alt=""
             />
-            <div className="space-y-2">
-              <h3 className="text-2xl tracking-wide mt-2 text-main">
-                Arafat Sabbir
-              </h3>
-              <h3 className="text-xl tracking-wide ">Front-End DEVELOPER</h3>
-              <p className="flex items-center gap-1 tracking-wide justify-center font-medium">
-                
-                <span className="text-main ">
-                  <MdOutlineEmail />
-                </span>
-                arafatshabbir8(at)gmail(dot)com
-              </p>
-              <p className="flex items-center tracking-wider gap-1 justify-center font-medium">
-                
-                <span className="text-main">
-                  <MdOutlineLocationOn />
-                </span>
-                Chittagong,Bangladesh
-              </p>
-            </div>
           </div>
         </div>
         <div className="lg:w-1/2 text-center lg:text-left space-y-4  flex flex-col justify-center">
-          <h3 className="text-4xl text-main">Front-End Developer</h3>
-          <p className="text-lg tracking-wider w-[90vw] mx-auto lg:mx-0 lg:w-[600px]">
-            Front-End Developer | Building Stunning, Secure Web Apps. Passionate
-            about crafting visually appealing, fully functional, and secure web
-            applications.For Great User Experience...
+          <h3 className="text-4xl text-main">
+            <Typewriter
+              words={[
+                "Front End Developer",
+                "React Js Developer",
+                "Jr. MERN Stack Developer",
+              ]}
+              loop={true}
+              cursor
+              cursorStyle="_"
+              typeSpeed={90}
+              deleteSpeed={90}
+              delaySpeed={1000}
+            />
+          </h3>
+          <p className="text-lg tracking-wider w-[90vw] text-justify mx-auto lg:mx-0 lg:w-[600px]">
+          Creating Engaging, Responsive User Interfaces. Enthusiastic about developing dynamic and secure web applications using the <span className="font-bold text-main">MERN</span> (MongoDB, Express.js, React, Node.js) stack. Dedicated to crafting visually captivating and seamlessly functional websites.
           </p>
-          <div className="flex border-2  border-main rounded-full lg:w-[35%] w-[80vw] mx-auto lg:mx-0 p-1 items-center lg:gap-6 gap-4 justify-center lg:justify-start ">
+          <div className="flex bg-black font-medium py-2 rounded-sm px-3 border-b-2 border-b-main lg:w-[38%] w-[80vw] mx-auto lg:mx-0 p-1 items-center lg:gap-6 gap-4 justify-center lg:justify-start ">
             <a
               href={Resume}
               download={Resume}

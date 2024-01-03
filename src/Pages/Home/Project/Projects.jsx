@@ -40,7 +40,7 @@ const Projects = () => {
         <div className="text-white text-center mt-4 lg:mt-none lg:w-1/2 space-y-2">
           <h1 className="text-4xl font-medium  text-main">Echo Estate</h1>
           <h3 className="text-2xl font-semibold ">Real Estate Website</h3>
-          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto tracking-wide text-gray-200">
+          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto tracking-wide text-gray-200 text-justify">
             A Real Estate Website For Buying And Selling Property With Managing
             Property For Both User And Agent.Manage User And Property And
             Advertise Property For Admin.
@@ -94,10 +94,10 @@ const Projects = () => {
         <div className="text-white text-center lg:w-1/2 mt-4 lg:mt-none space-y-2">
           <h1 className="text-4xl font-medium text-main">Skill Exchange</h1>
           <h3 className="text-2xl font-semibold ">Freelance Website</h3>
-          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto tracking-wide text-gray-200">
+          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto tracking-wide text-gray-200 text-justify">
             A Freelance Website Where People can Post Job With Preferred Price
             Other People Can Bid On The Job And Manage Their Posted Jobs,Bid On
-            Their Job And The Job They Have Bidded For..
+            Their Job And The Job They Bidded For..
           </h4>
           <div className="flex gap-2  justify-center py-1">
             <h1 className="bg-gray-800 px-4 py-1 rounded-sm text-lg font-medium shadow-2xl">
@@ -148,7 +148,7 @@ const Projects = () => {
         <div className="text-white text-center lg:w-1/2 mt-4 lg:mt-none space-y-2">
           <h1 className="text-4xl font-medium  text-main">Gadget Gear</h1>
           <h3 className="text-2xl font-semibold ">Gadget Shop</h3>
-          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto tracking-wide text-gray-200">
+          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto tracking-wide text-gray-200 text-justify">
             A Gadget Shop Website Where People Can See Job Based On Different
             Category And Add To Their Card Manage The Their Card Job..
           </h4>

@@ -73,10 +73,10 @@ const Navbar = () => {
               }`}
             >
               <div className="flex flex-col  -mx-6 lg:flex-row lg:items-center lg:mx-8">
-              <a className="px-3 py-2 mx-3 mt-2 lg:text-white transition-colors duration-300 transform rounded-md lg:mt-0 hover:text-main" href="#about">About Me</a>
-              <a className="px-3 py-2 mx-3 mt-2 lg:text-white transition-colors duration-300 transform rounded-md lg:mt-0 hover:text-main" href="#skills">My Skills</a>
-              <a className="px-3 py-2 mx-3 mt-2 lg:text-white transition-colors duration-300 transform rounded-md lg:mt-0 hover:text-main" href="#projects">My Projects</a>
-              <a className="px-3 py-2 mx-3 mt-2 lg:text-white transition-colors duration-300 transform rounded-md lg:mt-0 hover:text-main" href="#contact">Contact Me</a>
+              <a className="px-3 py-2 mx-3 mt-2 lg:text-white transition-colors duration-300 transform rounded-md lg:mt-0 font-semibold hover:text-main" href="#about">About Me</a>
+              <a className="px-3 py-2 mx-3 mt-2 lg:text-white transition-colors duration-300 transform rounded-md lg:mt-0 font-semibold hover:text-main" href="#skills">My Skills</a>
+              <a className="px-3 py-2 mx-3 mt-2 lg:text-white transition-colors duration-300 transform rounded-md lg:mt-0 font-semibold hover:text-main" href="#projects">My Projects</a>
+              <a className="px-3 py-2 mx-3 mt-2 lg:text-white transition-colors duration-300 transform rounded-md lg:mt-0 font-semibold hover:text-main" href="#contact">Contact Me</a>
               </div>
 
               <div className="flex items-center mt-4 lg:mt-0">
