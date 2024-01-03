@@ -18,12 +18,12 @@ const Banner = () => {
           </div>
         </div>
         <div className="lg:w-1/2 text-center lg:text-left space-y-4  flex flex-col justify-center">
-          <h3 className="text-4xl text-main">
+          <h3 className="text-5xl text-main font-semibold">
             <Typewriter
               words={[
                 "Front End Developer",
                 "React Js Developer",
-                "Jr. MERN Stack Developer",
+                "MERN Stack Developer",
               ]}
               loop={true}
               cursor

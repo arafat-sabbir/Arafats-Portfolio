@@ -40,7 +40,7 @@ const Projects = () => {
         <div className="text-white text-center mt-4 lg:mt-none lg:w-1/2 space-y-2">
           <h1 className="text-4xl font-medium  text-main">Echo Estate</h1>
           <h3 className="text-2xl font-semibold ">Real Estate Website</h3>
-          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto tracking-wide text-gray-200 text-justify">
+          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto  text-gray-200 text-center">
             A Real Estate Website For Buying And Selling Property With Managing
             Property For Both User And Agent.Manage User And Property And
             Advertise Property For Admin.
@@ -94,7 +94,7 @@ const Projects = () => {
         <div className="text-white text-center lg:w-1/2 mt-4 lg:mt-none space-y-2">
           <h1 className="text-4xl font-medium text-main">Skill Exchange</h1>
           <h3 className="text-2xl font-semibold ">Freelance Website</h3>
-          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto tracking-wide text-gray-200 text-justify">
+          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto text-gray-200 text-center">
             A Freelance Website Where People can Post Job With Preferred Price
             Other People Can Bid On The Job And Manage Their Posted Jobs,Bid On
             Their Job And The Job They Bidded For..
@@ -148,7 +148,7 @@ const Projects = () => {
         <div className="text-white text-center lg:w-1/2 mt-4 lg:mt-none space-y-2">
           <h1 className="text-4xl font-medium  text-main">Gadget Gear</h1>
           <h3 className="text-2xl font-semibold ">Gadget Shop</h3>
-          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto tracking-wide text-gray-200 text-justify">
+          <h4 className="text-xl font-medium lg:w-[500px] w-[300px]  mx-auto  text-gray-200 text-center">
             A Gadget Shop Website Where People Can See Job Based On Different
             Category And Add To Their Card Manage The Their Card Job..
           </h4>
