@@ -16,7 +16,7 @@ const Banner = () => {
             transform: isInView1 ? "none" : "scale(0)",
             opacity: isInView1 ? "1" : "0",
             transition: "all 1.8s",
-        }} className="lg:w-11/12 w-[90vw] mx-auto  p-10">
+        }} className="lg:w-11/12 w-[98vw] mx-auto  p-10">
             <img
               className="h-72 w-72 mx-auto"
               src="https://i.ibb.co/F3NN1t5/profile-pic-5.png"
@@ -29,7 +29,7 @@ const Banner = () => {
             opacity: isInView1 ? "1" : "0",
             transition: "all 1.8s",
         }} className="lg:w-1/2 text-center lg:text-left space-y-4  flex flex-col justify-center">
-          <h3 className="text-5xl text-main font-semibold">
+          <h3 className="md:text-5xl text-3xl text-main font-semibold">
             <Typewriter
               words={[
                 "Front End Developer",
@@ -44,7 +44,7 @@ const Banner = () => {
               delaySpeed={1000}
             />
           </h3>
-          <p className="text-lg tracking-wider w-[90vw] text-justify mx-auto lg:mx-0 lg:w-[600px]">
+          <p className="text-lg tracking-wider w-[90vw] text-center lg:text-justify mx-auto lg:mx-0 lg:w-[600px]">
           Creating Engaging, Responsive User Interfaces. Enthusiastic about developing dynamic and secure web applications using the <span className="font-bold text-main">MERN</span> (MongoDB, Express.js, React, Node.js) stack. Dedicated to crafting visually captivating and seamlessly functional websites.
           </p>
           <div className="flex bg-black font-medium py-2 rounded-sm px-3 border-b-2 border-b-main lg:w-[38%] w-[80vw] mx-auto lg:mx-0 p-1 items-center lg:gap-6 gap-4 justify-center lg:justify-start ">

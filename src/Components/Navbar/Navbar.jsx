@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between">
               <Link to={"/"}>
                 <img
-                  className="w-20  sm:h-20"
+                  className="md:w-20 w-10  sm:h-20"
                   src="https://i.postimg.cc/xdRy7ZRc/Untitled-design-5.png"
                   alt=""
                 />
